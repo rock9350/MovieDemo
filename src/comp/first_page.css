@@ -1,0 +1,59 @@
+.box {
+  border-radius: 25px;
+  display: inline-flex;
+  padding: 15px;
+  width: 50%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  margin-top: 15px;
+}
+
+.movie-name {
+  margin-top: 10px;
+  font-family: Monospace;
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.rel-date {
+  padding-left: 80px;
+  padding-right: 5px;
+  font-size: 19px;
+}
+
+.end-date {
+  font-size: 19px;
+}
+
+.box-details {
+  padding-left: 25px;
+  text-align: initial;
+}
+.lang {
+  font-family: Monospace;
+  font-size: 20px;
+  font-weight: normal;
+}
+.rate {
+  font-family: Monospace;
+  font-size: 20px;
+  font-weight: normal;
+}
+.img {
+  position: relative;
+  top: 65px;
+  text-decoration: none;
+  padding: 13px 23px 13px 23px;
+  text-align: center;
+  color: black;
+  border-radius: 15px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.movie-img {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
