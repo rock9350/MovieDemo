@@ -8,6 +8,7 @@ class Part_1 extends Component {
     getData: [],
   };
 
+
   componentDidMount = async () => {
     try {
       const { data: post } = await axios.get(
